@@ -11,7 +11,7 @@ repositories {
         url = uri("https://maven.pkg.github.com/gimwonbae/java-cfenv")
         credentials {
             username = project.findProperty("gpr.user") ?: "gimwonbae"
-            password = project.findProperty("gpr.key") ?: "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"
+            password = project.findProperty("gpr.key") ?: "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"
         }
     }
     mavenCentral()
